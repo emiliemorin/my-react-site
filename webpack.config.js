@@ -22,7 +22,7 @@ module.exports = {
         loader: 'url-loader?limit=100000&minetype=image/png'
       },
       {
-        test: /\.jpg/,
+        test: /\.(jpg|ttf|eot|woff|woff2)$/,
         loader: 'file-loader'
       },
       {
@@ -32,6 +32,20 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
        }
+      },
+       {
+        test: /\.mp4/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+            mimtetype: 'video/mp4',
+          }
+        }
+        },
+      {
+        test: /\.html$/,
+        use: 'html-loader?attrs[]=video:src'
       }
     ]
   },

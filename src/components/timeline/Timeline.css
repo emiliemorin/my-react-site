@@ -1,0 +1,37 @@
+.company-circle {
+    width: 100px;
+    border-radius: 100px;
+    color: grey;
+    font-size: 14px;
+    display: inline-block;
+    padding: 40.5px 0 40.5px 0;
+}
+
+.circle-box {
+    width: 25%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.referee-circle {
+    border: 5px solid #7CD7EA;
+}
+
+.air-canada-circle {
+    border: 5px solid #6CB8C4;
+}
+
+.ibm-circle {
+    border: 5px solid #339CA9;
+}
+
+.new-circle {
+    border: 5px solid #13565B;
+}
+
+.timeline-circles-container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+.video-container {
+    text-align: center;
+}
+
+.video {
+    width: 50%;
+}
+
+.play-pause {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 2px #13565B;
+    background-color: white;
+}

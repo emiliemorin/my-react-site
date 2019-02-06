@@ -1,0 +1,49 @@
+
+.home-left-page {
+    width: calc(100% - 290px);
+    float: left;
+}
+
+.home-right-page {
+    width: 290px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+
+.page-title {
+    font-size: 36px;
+    color: #471363;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.paragraph-text {
+    margin-bottom: 10px;
+}
+
+.headshot-image-border {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 10px solid #6CB8C4;
+    float: right;
+
+}
+
+.headshot {
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .home-right-page {
+        width: 100%;
+    }
+    .home-left-page {
+        width: 100%;
+    }
+  }

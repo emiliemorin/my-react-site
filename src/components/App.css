@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'FjallaOne';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Dancing_Script/DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-weight: 400 !important;
+    color: grey !important;
+    margin-bottom: 5px !important;
+    display: inline-block !important;
+    font-size: 20px !important;
+    margin-top: 0px !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+.bottom-margin {
+    margin-bottom: 20px;
+}
+
+.page-container {
+    width: 80%;
+    margin-left: calc(10% - 30px);
+    margin-right: calc(10% - 30px);
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    height: calc(100% - 180px);
+    overflow-y: scroll;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px 30px 40px 30px;
+}
+
+.background-image {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 50px;
+    height: 100%;
+    background-image: url('../assets/WinterMountains.jpg');
+    background-size: cover; 
+}
+
+.date {
+    font-weight: 300 !important;
+    color: grey !important;
+    margin-bottom: 10px !important;
+    font-size: 16px !important;
+    margin-top: 0px !important;
+}

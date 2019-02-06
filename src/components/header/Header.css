@@ -1,0 +1,52 @@
+.header-container {
+    width: 100%;
+    background-color: #6CB8C4;
+    color: white;
+    /* padding: 20px 20px 20px 40px; */
+    min-height: 50px;
+    position: fixed;
+    align-content: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation-box {
+    width: 11.5%;
+    height: 100%;
+    padding: 15px 0 15px 0;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header-name {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    width: 16%;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .navigation-box {
+        font-size: 13px;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .navigation-box {
+        font-size: 12px;
+    }
+  }
+
+@media screen and (max-width: 720px) {
+   .header-name {
+       width: 100%;
+   }
+  }
