@@ -5,6 +5,7 @@ import video from '../../assets/IMG_6531.mp4';
 import lumohacks from '../../assets/lumohacks-2018.jpg';
 import toboggan from '../../assets/concrete-toboggan.jpg';
 
+// Component displays projects through photos, videos, and embeded links
 class Projects extends Component {
     constructor(props) {
         super(props);

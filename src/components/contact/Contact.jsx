@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/Header';
 
+// Component displays contact info and LinkedIn link
 class Contact extends Component {
     constructor(props) {
         super(props);

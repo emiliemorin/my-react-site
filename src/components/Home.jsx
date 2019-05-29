@@ -4,6 +4,7 @@ import headshot from '../assets/Headshot-BW-round.png';
 import Timeline from './timeline/Timeline';
 import './Home.css';
 
+// This component is the home component and the first page the user sees on the website
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -14,7 +15,6 @@ class Home extends Component {
       <div >
         <Header />
         <div className="background-image">
-            {/* <img src={require('../assets/WinterMountains.jpg')} width="100%"/> */}
         </div>
           <div className="page-container">
             <div className="home-left-page">
@@ -23,11 +23,6 @@ class Home extends Component {
                 I believe that the greatest technological ventures are ones that enable people to be more efficient, 
                 and live happier, healthier lives. We must also ensure the same for future generations.
               </div>
-              {/* <div className="paragraph-text">The collaboration of technology companies with other industries has never been more pivital. 
-                With advances in artificial intelligence, we are learning about diseases and illnesses at an accelerated rate, allowing for more effective treatment plans and higher success rates.
-                With developments in IoT and electric vehicles, we are on our way to decreasing the amount of carbon emissions being released into our atmosphere. 
-                And with increased data collection, companies are able to better understand the needs of their customers and improve operations efficiency.
-              </div> */}
               <div className="paragraph-text">
                 I am currently in my third year of Electrical Engineering, on Exchange at the University of Glasgow, with work experience in Full Stack Development and Digital Strategy. 
                 An avid problem solver, I am constantly looking for challenges to further my growth and expand my perspectives on the world around me.
@@ -42,6 +37,7 @@ class Home extends Component {
                 <img className="headshot" src={headshot} />
               </div>
             </div>
+            {/* The user can navigate the website using the timeline component */}
             <Timeline />
           </div>
       </div>

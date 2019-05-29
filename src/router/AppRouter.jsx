@@ -4,12 +4,12 @@ import { browserHistory } from 'react-router';
 import Home from '../components/Home';
 import WorkExperience from '../components/workExperience/WorkExperience';
 import Skills from '../components/skills/Skills';
-import LandingPage from '../components/landingPage/LandingPage';
 import Education from '../components/education/Education';
 import Projects from '../components/projects/Projects';
 import Interests from '../components/interests/Interests';
 import Contact from '../components/contact/Contact';
 
+// Component AppRouter used to route between different pages of the site
 class AppRouter extends Component {
     constructor(props) {
         super(props);

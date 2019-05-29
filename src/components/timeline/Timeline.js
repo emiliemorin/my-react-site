@@ -3,6 +3,7 @@ import timeline from '../../assets/Timeline.png';
 import './Timeline.css';
 import { Link } from 'react-router-dom';
 
+// Timeline component is an interactive image used to navigate to various pages of the site
 class Timeline extends Component {
     constructor(props) {
         super(props);

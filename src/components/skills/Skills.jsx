@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header/Header';
 import './Skills.css';
 
+// Component displays skills
 class Skills extends Component {
     constructor(props) {
         super(props);

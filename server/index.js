@@ -13,6 +13,3 @@ var server = app.listen(PORT, () => {
   var port = server.address().port;
   console.log('App listening at port:' + port)
 });
-// app.listen(PORT, () => {
-//   console.log(`listening on port ${PORT}!`);
-// });

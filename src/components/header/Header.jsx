@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
+// Header component used to navigate to different pages. It is a child component of each page.
 class Header extends Component {
     render () {
         return (

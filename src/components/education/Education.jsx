@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header/Header';
 import './Education.css';
 
+// Component displays education history
 class Education extends Component {
     constructor(props) {
         super(props);

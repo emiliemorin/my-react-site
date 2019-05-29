@@ -6,6 +6,7 @@ import hike from '../../assets/hike.jpg';
 import hockey from '../../assets/hockey.jpg';
 import './Interests.css';
 
+// Component displays interests
 class Interests extends Component {
     render () {
         return (

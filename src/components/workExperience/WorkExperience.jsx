@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/Header';
 
+// Component displays work experience
 class WorkExperience extends Component {
     constructor(props) {
         super(props);
