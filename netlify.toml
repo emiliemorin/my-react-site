@@ -1,0 +1,4 @@
+[build]
+base = "my-react-site/"
+publish = "my-react-site/build/"
+command = "npm run build"
