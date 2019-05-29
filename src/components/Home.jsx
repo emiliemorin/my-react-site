@@ -19,13 +19,14 @@ class Home extends Component {
           <div className="page-container">
             <div className="home-left-page">
               <div className="page-title">Emilie Morin</div>
-              <div className="paragraph-text">As I begin to build my career in technology, I see endless potential accross all industries. 
-                I believe that the greatest technological ventures are ones that enable people to be more efficient, 
-                and live happier, healthier lives. We must also ensure the same for future generations.
+              <div className="paragraph-text">
+                Studying Electrical Engineering at the University of British Columbia, I am currently on exchange at the University of Glasgow.
               </div>
               <div className="paragraph-text">
-                I am currently in my third year of Electrical Engineering, on Exchange at the University of Glasgow, with work experience in Full Stack Development and Digital Strategy. 
-                An avid problem solver, I am constantly looking for challenges to further my growth and expand my perspectives on the world around me.
+                I enjoy using innovative technology to solve challenging problems and improve customer experience. Through internships, I have gained work experience in Digital Strategy and Full-Stack Development.
+              </div>
+              <div className="paragraph-text">
+                At UBC, I am an executive of the Concrete Toboggan Team, primarily contributing to the electronics, technical display, and spirit sub teams. In addition, I am a member of an intramural hockey team.
               </div>
               <h2>
                 Click on the buttons below to find out more!

@@ -77,7 +77,7 @@ class Projects extends Component {
                 <div className="bottom-margin"></div>
 
                 <h2 className="italic">Lumohacks 2018</h2>
-                <li>Lead team in the development of a web app aimed to help people be proactive about their mental health</li>
+                <li>Led team in the development of a web app aimed to help people be proactive about their mental health</li>
                 <li>Produced storyboards, architecture outlines, and developed the application in React.js</li>
                 <li>Placed in top 15 teams</li>
                 <div className="bottom-margin"></div>

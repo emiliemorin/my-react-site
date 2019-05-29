@@ -24,8 +24,8 @@ class Education extends Component {
                 </div>
                 <div className="education-box">
                     <h2>University of British Columbia</h2>
-                    <div>Electrical Engineering</div>
-                    <div>Sept, 2016 - Apr, 2020</div>
+                    <div>Electrical Engineering (Co-op)</div>
+                    <div>Sept, 2016 - Apr, 2021</div>
                     <div className="bottom-margin"></div>
                 </div>
                 <div className="education-box">
