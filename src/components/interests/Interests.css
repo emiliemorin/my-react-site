@@ -1,0 +1,10 @@
+.interest-container {
+    width: 25%;
+    text-align: center;
+    display: inline-table;
+}
+
+.interest-photo {
+    width: 80%;
+    text-align: center;
+}

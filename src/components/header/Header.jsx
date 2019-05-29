@@ -7,12 +7,12 @@ class Header extends Component {
         return (
             <div className="header-container">
                 <Link to="/"><div className="header-name">Emilie Morin</div></Link>
-                <Link to="/aboutMe" ><button className="navigation-box" >About Me</button></Link>
                 <Link to="/workExperience" ><button className="navigation-box" >Work Experience</button></Link>
                 <Link to="/skills" ><button className="navigation-box">Skills</button></Link>
                 <Link to="/projects" ><button className="navigation-box">Projects</button></Link>
                 <Link to="/education" ><button className="navigation-box">Education</button></Link>
-                <button className="navigation-box">Interests</button>
+                <Link to="/interests" ><button className="navigation-box">Interests</button></Link>
+                <Link to="/contact" ><button className="navigation-box">Contact</button></Link>
                 <button className="navigation-box">Contact</button>
             </div>
         )

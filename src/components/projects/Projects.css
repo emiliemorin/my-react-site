@@ -13,3 +13,11 @@
     border: solid 2px #13565B;
     background-color: white;
 }
+
+.embeded-link {
+    text-align: center
+}
+
+.photo {
+    width: 50%;
+}

@@ -14,6 +14,10 @@ class WorkExperience extends Component {
             </div>
             <div className="page-container">
                 <div className="page-title">Work Experience</div>
+                <h2 className="italic">Associate Consultant,</h2> <h2>Farrpoint</h2>
+                <div className="date">Jun - Aug, 2019</div>
+                <div className="bottom-margin"></div>
+                
                 <h2 className="italic">Full-Stack Developer (Co-op),</h2> <h2>IBM Canada - Watson IoT</h2>
                 <div className="date">May - Aug, 2018</div>
                 <li>Developed mobile web applications and web portals in React, using Redux and
@@ -26,8 +30,7 @@ class WorkExperience extends Component {
 
                 <h2 className="italic">Digital Strategy Intern,</h2> <h2>Air Canada</h2>
                 <div className="date">Jun - Aug, 2017</div>
-                <li>Collaborated with web development, mobile app, marketing teams, Google,
-                    Adobe, and various agencies to improve the digital marketing platform</li>
+                <li>Collaborated with web development, mobile app, marketing teams, and various agencies to improve the digital marketing platform</li>
                 <li>Utilized Adobe Analytics, AMO, and Google AdWords to conduct analysis of
                     marketing campaign success</li>
                 <li>Presented research and analysis at various technical levels to colleagues,

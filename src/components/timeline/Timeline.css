@@ -1,37 +1,58 @@
-.company-circle {
+.timeline-circle {
     width: 100px;
     border-radius: 100px;
     color: grey;
     font-size: 14px;
     display: inline-block;
-    padding: 40.5px 0 40.5px 0;
+    padding: 40.5px 0 40.5px 0 !important;
 }
 
 .circle-box {
-    width: 25%;
     align-content: center;
     text-align: center;
     display: inline-block;
 }
 
-.referee-circle {
+.light-blue-circle {
     border: 5px solid #7CD7EA;
 }
 
-.air-canada-circle {
+.blue-circle {
     border: 5px solid #6CB8C4;
 }
 
-.ibm-circle {
+.medium-blue-circle {
     border: 5px solid #339CA9;
 }
 
-.new-circle {
+.dark-blue-circle {
     border: 5px solid #13565B;
+}
+
+.company-circle {
+    width: 25% !important;
+}
+
+.tbog-circle {
+    margin-left: 15%;
+    width: 21%;
+}
+
+.hockey-circle {
+    /* margin-left: 6%;*/
+    width: 16%;
+}
+
+.skiing-circle {
+    /* margin-left: 40%;*/
+    width: 21%;
 }
 
 .timeline-circles-container {
     width: 100%;
     display: inline-block;
-    margin-top: 20px;
+}
+
+.timeline {
+    margin-bottom: -5px;
 }

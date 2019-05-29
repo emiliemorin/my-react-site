@@ -57,8 +57,8 @@ class Skills extends Component {
                 <div className="skills-container ">
                     <div className="skill-title">Other Skills</div>
                     <div className="skills-body">
-                        <li>Microsoft Office</li>
-                        <li>Bilingual (English, French)</li>
+                        <li>Microsoft Powerpoint</li>
+                        <li>Microsoft Word</li>
                     </div>
                 </div>
             </div>

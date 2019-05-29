@@ -7,7 +7,8 @@ import Skills from '../components/skills/Skills';
 import LandingPage from '../components/landingPage/LandingPage';
 import Education from '../components/education/Education';
 import Projects from '../components/projects/Projects';
-import AboutMe from '../components/aboutMe/AboutMe';
+import Interests from '../components/interests/Interests';
+import Contact from '../components/contact/Contact';
 
 class AppRouter extends Component {
     constructor(props) {
@@ -22,9 +23,6 @@ class AppRouter extends Component {
                     <Route exact path="/" render={() =>
                         <Home />
                     }/>
-                    <Route exact path="/aboutMe" render={() => 
-                        <AboutMe />
-                    }/>
                     <Route exact path="/workExperience" render={() => 
                         <WorkExperience />
                     }/>
@@ -36,6 +34,12 @@ class AppRouter extends Component {
                     }/>
                     <Route exact path="/projects" render={() => 
                         <Projects />
+                    }/>
+                    <Route exact path="/interests" render={() => 
+                        <Interests />
+                    }/>
+                    <Route exact path="/contact" render={() =>
+                        <Contact />
                     }/>
                     </div>
                 </Switch>

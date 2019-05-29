@@ -12,37 +12,62 @@ class Timeline extends Component {
         return (
         <div>
             <div className="timeline-circles-container">
-                <div className="circle-box">
+                <div className="circle-box company-circle">
                     <Link to="/workExperience" >
-                        <div className="company-circle referee-circle">
+                        <div className="timeline-circle light-blue-circle">
                             <div>Hockey Referee</div>
                         </div>
                     </Link>
                 </div>
-                <div className="circle-box">
+                <div className="circle-box company-circle">
                     <Link to="/workExperience" >
-                        <div className="company-circle air-canada-circle">
+                        <div className="timeline-circle blue-circle">
                             <div>Air Canada</div>
                         </div>
                     </Link>
                 </div>
-                <div className="circle-box">
+                <div className="circle-box company-circle">
                     <Link to="/workExperience" >
-                        <div className="company-circle ibm-circle">
+                        <div className="timeline-circle medium-blue-circle">
                             <div>IBM</div>
                         </div>
                     </Link>
                 </div>
-                <div className="circle-box">
-                    <div className="company-circle new-circle">
-                        <div>?</div>
-                    </div>
+                <div className="circle-box company-circle">
+                    <Link to="/workExperience" >
+                        <div className="timeline-circle dark-blue-circle">
+                            <div>Farrpoint</div>
+                        </div>
+                    </Link>
                 </div>
             </div>
-            <div>
+            <div className="timeline">
                 <img width="100%"
                 src={timeline}
                 />
+            </div>
+            <div className="timeline-circles-container">
+                <div className="circle-box tbog-circle">
+                    <Link to="/projects" >
+                        <div className="timeline-circle light-blue-circle">
+                            <div>Tbog</div>
+                        </div>
+                    </Link>
+                </div>
+                <div className="circle-box hockey-circle">
+                    <Link to="/interests">
+                        <div className="timeline-circle blue-circle">
+                            <div>Hockey</div>
+                        </div>
+                    </Link>
+                </div>
+                <div className="circle-box skiing-circle">
+                    <Link to="/interests">
+                        <div className="timeline-circle medium-blue-circle">
+                            <div>Skiing</div>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
         )

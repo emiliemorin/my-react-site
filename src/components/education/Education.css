@@ -1,0 +1,15 @@
+/* CSS for Education Page */
+
+.education-box {
+    width: 100%;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .education-box {
+        width: 100%;
+        text-align: left;
+    }
+  }
