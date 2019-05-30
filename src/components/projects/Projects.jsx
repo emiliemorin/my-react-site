@@ -68,7 +68,7 @@ class Projects extends Component {
                 <div className="bottom-margin"></div>
 
                 <h2 className="italic">IBM North America Intern Hackathon 2018</h2>
-                <li>Collaborated with team to develop a VR application for an office desk reservation system</li>
+                <li>Collaborated with team to develop a AR application for an office desk reservation system</li>
                 <li>Developed use case and business model, and presented the product to executive judges</li>
                 <li>Won Bring Your Own Technology category</li>
                 <div className="bottom-margin"></div>
